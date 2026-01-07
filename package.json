@@ -1,0 +1,26 @@
+{
+  "name": "ipin-market-panel",
+  "version": "1.0.0",
+  "description": "Panel Hosting By IPIN MARKET",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": ["panel", "bot", "qris", "payment"],
+  "author": "IPIN MARKET",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "qrcode": "^1.5.3",
+    "ejs": "^3.1.9"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
