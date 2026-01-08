@@ -1,26 +1,52 @@
 {
   "name": "ipin-market-panel",
-  "version": "1.0.0",
-  "description": "Panel Hosting By IPIN MARKET",
+  "version": "2.5.0",
+  "description": "IPIN MARKET - Enterprise Grade Digital Product Store. Features Pterodactyl Automation, WhatsApp Bot Rentals, and Secure Script Delivery. Integrated with Supabase & Pakasir QRIS.",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["panel", "bot", "qris", "payment"],
-  "author": "IPIN MARKET",
+  "keywords": [
+    "panel",
+    "hosting",
+    "pterodactyl",
+    "whatsapp-bot",
+    "qris",
+    "payment-gateway",
+    "digital-store",
+    "supabase",
+    "express",
+    "ejs"
+  ],
+  "author": "IPIN MARKET DEVELOPER TEAM",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
-    "axios": "^1.6.0",
-    "dotenv": "^16.3.1",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.1",
     "qrcode": "^1.5.3",
-    "ejs": "^3.1.9"
+    "ejs": "^3.1.9",
+    "@supabase/supabase-js": "^2.39.3",
+    "multer": "^1.4.5-lts.1",
+    "cors": "^2.8.5",
+    "cookie-parser": "^1.4.6",
+    "uuid": "^9.0.1",
+    "moment": "^2.30.1"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.3"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=18.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipinmarket/panel.git"
+  },
+  "bugs": {
+    "url": "https://wa.me/6282261169349"
   }
 }
